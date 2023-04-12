@@ -1,0 +1,62 @@
+body{
+     background-color: grey;
+     margin: 0%;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+     
+}
+
+.btn{
+     background-color: black;
+     color: white;
+     width: 200px;
+     height: 40px;
+     font-weight: bold;
+     font-size: 17px;
+     border: none;
+     border-radius: 20px;
+     margin-top: 90px;
+}
+
+.btn:hover{
+     background-color: white;
+     color: black;
+     transition: 0.4s;
+}
+
+
+.btn:active{
+     background-color: white;
+     color: black;
+     opacity: 0.3;
+}
+
+.colour-box{
+     display: flex;
+     justify-content: space-between;
+     height: 300px;
+     margin-top: 100px;
+     position: relative;
+
+}
+
+.hex{
+     display: flex;
+     justify-content: space-evenly;
+     font-size: xx-large;
+}
+
+.colour > div{
+     width: 25%;
+}
+
+.colour{
+     background: #ccc;
+     overflow-y: hidden;
+     height: 100%;
+     border-radius: 20px;
+     justify-content: end;
+     align-items: center;
+     display: flex;
+}
